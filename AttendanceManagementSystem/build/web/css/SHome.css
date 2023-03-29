@@ -1,0 +1,70 @@
+body {
+    padding: 10%;
+    margin: 10px;
+    font-family: 'Lato', sans-serif;
+    color: rgb(183, 68, 68);
+    background-color: rgb(243, 235, 236);
+  }
+  
+  .student-profile .card {
+    border-radius: 10px;
+  }
+  
+  .student-profile .card .card-header .profile_img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 10px auto;
+    border: 20px solid rgb(159, 84, 84);
+    border-radius: 50%;
+  }
+  
+  .student-profile .card h3 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  .student-profile .card p {
+    font-size: 16px;
+    color: rgb(72, 101, 160);
+  }
+  
+  .student-profile .table th,
+  .student-profile .table td {
+    font-size: 14px;
+    padding: 5px 10px;
+    color: rgb(88, 81, 155);
+    border: 10px;
+  }
+  /* .col-lg-8 {
+    position:fixed;
+    /* left: 50%; 
+  } */
+ #sd{
+   position: absolute;
+   top: 10%;
+   left: 35%;
+  }
+  .und{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+
+  }
+  .table{
+    padding: 25px;
+  }
+
+  .logout{
+    position: absolute;
+    top:20px;
+    left: 90%;
+  }
+  .logout a{
+    text-decoration: none;
+    font-size: large;
+  }
+
+  .logout a:hover{
+    color:blueviolet
+  }
